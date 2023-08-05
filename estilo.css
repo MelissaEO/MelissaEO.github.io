@@ -1,0 +1,150 @@
+body{
+    background-color: rgb(255, 226, 220);
+    margin-bottom: 100px;
+}
+/*
+h1{
+    background-color: rgb(253, 216, 173);
+    color: rgb(235, 59, 10);
+    text-align: center;
+    font-size: 50px;
+}
+
+h2{
+    color: rgb(144, 33, 2);
+}
+p{
+    color: brown;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.Tabla{
+    background-color: rgb(253, 216, 173);
+    color: brown;
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+} */
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 400px 400px;
+    column-gap: 70px;
+    margin: 100px;
+}
+.contenedor1{
+    background-color: rgb(221, 167, 163);
+}
+.contenedor2{
+    background-color: rgb(221, 167, 163);
+}
+.contenedor3{
+    background-color:rgb(221, 167, 163);
+}
+
+.contenedor4{
+    background-color:rgb(221, 167, 163);
+    margin-top: 100px;
+    align-items: center;
+    grid-column: 2;
+    justify-content: center;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    color:brown;
+}
+
+.grid-container > div{
+    border-radius: 50px;
+}
+.grid-container > div:hover{
+    transform: scale(1.2 , 1.2);
+    cursor: pointer;
+}
+
+.tabla{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    align-items: center;
+    justify-items:center;
+    padding: 10px 50px 30px 50px;
+    line-height: 30px;
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+}
+
+#contactar{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: brown;
+}
+
+p{
+    color: brown;
+    font-size: 20px;
+}
+label{
+    color: brown;
+    font-size: 20px;
+}
+
+input{
+    cursor: pointer;
+    border-radius: 500px;
+    font-size: 15px;
+    background-color:  rgb(255, 243, 242);
+    font-family: 'Times New Roman', Times, serif;
+}
+input:hover{
+    background-color: rgb(234, 145, 145);
+    
+}
+select{
+    font-size: 15px;
+    background-color: rgb(255, 243, 242);
+}
+
+#parrafo{
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+#titulo{
+    font-size: 60px;
+    color: brown;
+    background-color:  rgb(221, 167, 163);
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 200px;
+}
+
+#puedes{
+    font-size: 20px;
+    color: brown;
+}
+
+#perfilesSociales{
+    color: brown;
+    font-size: 30px;
+}
+
+#contacto{
+    float: center;
+    margin-left: 850px;
+}
+#imagen{
+    float: left;
+    margin-left: 350px;
+}
+img{
+    height: 300px;
+    width: 400px;
+}
+
